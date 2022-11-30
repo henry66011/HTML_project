@@ -1,0 +1,705 @@
+/* @import url("font/PingFang TC.otf"); */
+@font-face {
+	font-family: 'PingFang';
+	src: local("PingFang"),
+	  url('./font/PingFang TC.otf') format("opentype");
+}
+#outBlock{
+	/* Layout Properties */
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 3006px;
+	/* UI Properties */
+	background: #ffffff 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+#mainTable{
+	margin: 0px 360px 0px 360px;
+	border-spacing:10px 10px;
+	table-layout : fixed;
+}
+#title{
+	/* Layout Properties */
+	top: 40px;
+	left: 360px;
+	width: 274px;
+	height: 190px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal normal 80px/95px SF Pro Text ;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#firstHr{
+	top: 254px;
+	left: 360px;
+	width: 1200px;
+	height: 0px;
+	border: 2px solid #000000;
+	opacity: 1;
+	position:absolute;
+}
+#photo_MugShot{
+	/* Layout Properties */
+	top: 302px;
+	left: 360px;
+	width: 324px;
+	height: 324px;
+	/* UI Properties */
+	background: transparent url('img/photo-1536180931879-fd2d652efddc.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position:absolute;
+}
+#personInfo{
+	top: 674px;
+	left: 360px;
+	width: 128px;
+	height: 48px;
+	text-align: left;
+	font: normal normal bold 32px/48px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	display: inline-block;
+	position:absolute;
+}
+#profile{
+	/* Layout Properties */
+	top: 680px;
+	left: 504px;
+	width: 101px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 600 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #A00404;
+	opacity: 1;
+	display: inline-block;
+	position:absolute;
+}
+#personInfoHr{
+	/* Layout Properties */
+	top: 730px;
+	left: 360px;
+	width: 1200px;
+	height: 0px;
+	/* UI Properties */
+	border: 1px solid #000000;
+	opacity: 1;
+	position:absolute;
+}
+#personInfoContent1{
+	/* Layout Properties */
+	top: 746px;
+	left: 360px;
+	width: 439px;
+	height: 108px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#personInfoContent2{
+	/* Layout Properties */
+	top: 878px;
+	left: 360px;
+	width: 696px;
+	height: 108px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#educationInfo{
+	/* Layout Properties */
+	top: 1050px;
+	left: 360px;
+	width: 64px;
+	height: 48px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 32px/48px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	display: inline-block;
+	position:absolute;
+}
+#education{
+	/* Layout Properties */
+	top: 1056px;
+	left: 440px;
+	width: 143px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 600 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #A00404;
+	opacity: 1;
+	display: inline-block;
+	position:absolute;
+}
+#educationHr{
+	/* Layout Properties */
+	top: 1106px;
+	left: 360px;
+	width: 1200px;
+	height: 0px;
+	/* UI Properties */
+	border: 1px solid #000000;
+	opacity: 1;
+	position:absolute;
+}
+#educationContent1{
+	/* Layout Properties */
+	top: 1122px;
+	left: 360px;
+	width: 603px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#educationContent2{
+	/* Layout Properties */
+	top: 1174px;
+	left: 360px;
+	width: 422px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#midArea{
+	/* Layout Properties */
+	top: 1274px;
+	left: 0px;
+	width: 1920px;
+	height: 460px;
+	/* UI Properties */
+	background: #415165 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position:absolute;
+}
+#skillbox{
+	/* Layout Properties */
+	top: 1298px;
+	left: 882px;
+	width: 164px;
+	height: 48px;
+	/* UI Properties */
+	opacity: 1;
+	position:absolute;
+}
+#skillInfo{
+	/* Layout Properties */
+	top: 1298px;
+	left: 882px;
+	width: 64px;
+	height: 48px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 32px/48px PingFang TC;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skills{
+	/* Layout Properties */
+	top: 1304px;
+	left: 962px;
+	width: 84px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 600 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skillHr{
+	/* Layout Properties */
+	top: 1354px;
+	left: 462px;
+	width: 996px;
+	height: 0px;
+	/* UI Properties */
+	border: 1px solid #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skillVr{
+	/* Layout Properties */
+	top: 1394px;
+	left: 852px;
+	width: 0px;
+	height: 300px;
+	/* UI Properties */
+	border: 1px solid #96A9C4;
+	opacity: 1;
+	position:absolute;
+}
+#skillContent1{
+	/* Layout Properties */
+	top: 1394px;
+	left: 876px;
+	width: 200px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skillContent1:hover{
+	color: yellow;
+}
+#skillContent2{
+	/* Layout Properties */
+	top: 1438px;
+	left: 875px;
+	width: 186px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skillContent2:hover{
+	color: yellow;
+}
+#skillContent3{
+	/* Layout Properties */
+	top: 1482px;
+	left: 876px;
+	width: 114px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skillContent3:hover{
+	color: yellow;
+}
+#skillContent4{
+	/* Layout Properties */
+	top: 1526px;
+	left: 875px;
+	width: 176px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skillContent4:hover{
+	color: yellow;
+}
+#skillContent5{
+	/* Layout Properties */
+	top: 1570px;
+	left: 875px;
+	width: 50px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skillContent5:hover{
+	color: yellow;
+}
+#skillContent6{
+	/* Layout Properties */
+	top: 1614px;
+	left: 875px;
+	width: 180px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#skillContent6:hover{
+	color: yellow;
+}
+#skillContent7{
+	/* Layout Properties */
+	top: 1658px;
+	left: 876px;
+	width: 192px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#workInfo{
+	/* Layout Properties */
+	top: 1798px;
+	left: 360px;
+	width: 128px;
+	height: 48px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 32px/48px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#workExperience{
+	/* Layout Properties */
+	top: 1804px;
+	left: 504px;
+	width: 400px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 600 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #A00404;
+	opacity: 1;
+	position:absolute;
+}
+#workHr{
+	/* Layout Properties */
+	top: 1854px;
+	left: 360px;
+	width: 1200px;
+	height: 0px;
+	/* UI Properties */
+	border: 1px solid #000000;
+	opacity: 1;
+	position:absolute;
+}
+#workVr{
+	/* Layout Properties */
+	top: 1870px;
+	left: 384px;
+	width: 0px;
+	height: 654px;
+	/* UI Properties */
+	border: 1px solid #96A9C4;
+	opacity: 1;
+	position:absolute;
+}
+#workContent1{
+	/* Layout Properties */
+	top: 1870px;
+	left: 408px;
+	width: 509px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#workContent2{
+	/* Layout Properties */
+	top: 1906px;
+	left: 408px;
+	width: 100px;
+	height: 100px;
+	/* UI Properties */
+	background: transparent url('img/Group 6.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position:absolute;
+}
+#workContent2:hover{
+	border-style: solid;
+}
+#workContent3{
+	/* Layout Properties */
+	top: 2006px;
+	left: 408px;
+	width: 642px;
+	height: 150px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 20px/30px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#workContent4{
+	/* Layout Properties */
+	top: 2180px;
+	left: 408px;
+	width: 377px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#workContent5{
+	/* Layout Properties */
+	top: 2240px;
+	left: 408px;
+	width: 370px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#workContent6{
+	/* Layout Properties */
+	top: 2300px;
+	left: 408px;
+	width: 467px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#workContent7{
+	/* Layout Properties */
+	top: 2360px;
+	left: 408px;
+	width: 423px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#workContent8{
+	/* Layout Properties */
+	top: 2396px;
+	left: 408px;
+	width: 100px;
+	height: 100px;
+	/* UI Properties */
+	background: transparent url('img/Group 7.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position:absolute;
+}
+#workContent8:hover{
+	border-style: solid;
+}
+#workContent9{
+	/* Layout Properties */
+	top: 2496px;
+	left: 408px;
+	width: 400px;
+	height: 30px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 20px/30px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	position:absolute;
+}
+#bottomArea{
+	/* Layout Properties */
+	top: 2606px;
+	left: 0px;
+	width: 1920px;
+	height: 400px;
+	/* UI Properties */
+	background: #415165 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position:absolute;
+}
+#contactInfo{
+	/* Layout Properties */
+	top: 2630px;
+	left: 782px;
+	width: 128px;
+	height: 48px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 32px/48px PingFang TC;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#contactMethod{
+	/* Layout Properties */
+	top: 2636px;
+	left: 926px;
+	width: 400px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#contactHr{
+	/* Layout Properties */
+	top: 2686px;
+	left: 360px;
+	width: 1200px;
+	height: 0px;
+	/* UI Properties */
+	border: 1px solid #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#contactContent1{
+	/* Layout Properties */
+	top: 2710px;
+	left: 810px;
+	width: 311px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#contactContent1:hover{
+	color: yellow;
+}
+#contactContent2{
+	/* Layout Properties */
+	top: 2762px;
+	left: 847px;
+	width: 236px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#contactContent2:hover{
+	color: yellow;
+}
+#contactContent3{
+	/* Layout Properties */
+	top: 2814px;
+	left: 857px;
+	width: 207px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#contactContent3:hover{
+	color: yellow;
+}
+#contactContent4{
+	/* Layout Properties */
+	top: 2866px;
+	left: 696px;
+	width: 530px;
+	height: 36px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	position:absolute;
+}
+#contactContent4:hover{
+	color: yellow;
+}
+#contactContent5{
+	/* Layout Properties */
+	top: 2918px;
+	left: 864px;
+	width: 48px;
+	height: 48px;
+	/* UI Properties */
+	background: transparent url('img/facebook.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position:absolute;
+}
+#contactContent6{
+	/* Layout Properties */
+	top: 2918px;
+	left: 936px;
+	width: 48px;
+	height: 48px;
+	/* UI Properties */
+	background: transparent url('img/instagram-alt.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position:absolute;
+}
+#contactContent7{
+	/* Layout Properties */
+	top: 2918px;
+	left: 1008px;
+	width: 48px;
+	height: 48px;
+	/* UI Properties */
+	background: transparent url('img/line.svg') 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position:absolute;
+}
